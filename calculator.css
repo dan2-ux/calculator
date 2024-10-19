@@ -40,6 +40,7 @@ body{
     text-align: center;
 }
 #container button{
+    color:black;
     width: 4rem;
     height: 4rem;
     border-radius: 0.5rem;
@@ -47,7 +48,7 @@ body{
     background-color: hsl(0, 0%, 89%);
     margin: 2px;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 #container #dacbiet{
