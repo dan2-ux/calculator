@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container:hover{
+    background-color: hsl(0, 0%, 98%);
+}
+
+#hienthi{
+    width: 27rem;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    border:0;
+    font-size: 2rem;
+}
+#ketqua{
+    width: 27rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+    border:0;
+    font-size: 2rem;
+}
+#display{
+    width: 26.6rem;
+    height: 5rem;
+    border:1px solid;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#container button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    border:0;
+    background-color: hsl(0, 0%, 89%);
+    margin: 2px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#container #dacbiet{
+    background-color: hsl(39, 100%, 45%);
+}
+
+#container button:hover{
+    background-color: hsl(0, 0%, 91%);
+}
+#container button:active{
+    background-color: hsl(0, 0%, 93%);
+}

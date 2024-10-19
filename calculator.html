@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="container">   
+        <input type="text" id="hienthi" readonly ><br>
+        <input type="text" id="ketqua" readonly style="text-align: right;">
+        
+        <div id="hang1">
+            <button onclick="changeinput('7')">7</button>
+            <button onclick="changeinput('8')">8</button>
+            <button onclick="changeinput('9')">9</button>
+            <button onclick="delete1()" id="dacbiet">DEL</button>
+            <button onclick="deleteall()" id="dacbiet">AC</button>
+        </div>
+        <div id="hang2">
+            <button onclick="changeinput('4')">4</button>
+            <button onclick="changeinput('5')">5</button>
+            <button onclick="changeinput('6')">6</button>
+            <button onclick="changeinput('*')">x</button>
+            <button onclick="changeinput('/')">:</button>
+        </div>
+        <div id="hang3">
+            <button onclick="changeinput('1')">1</button>
+            <button onclick="changeinput('2')">2</button>
+            <button onclick="changeinput('3')">3</button>
+            <button onclick="changeinput('+')">+</button>
+            <button onclick="changeinput('-')">-</button>
+        </div>
+        <div id="hang4">
+            <button onclick="changeinput('(')">(</button>
+            <button onclick="changeinput('0')">0</button>
+            <button onclick="changeinput(')')">)</button>
+            <button onclick="changeinput('.')">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
